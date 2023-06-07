@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Web App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 align="center">Prize drawing</h1>
+  <h2 align="center">Fill out the form and win a prize</h2>
+  <form id="form">
+    <label for="name" align="center">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email" align="center">Email:</label>
+    <!-- <input type="text" id="email" name="email" required> -->
+    <input type="text" id="email" name="email" required>
+    </br>
+    <input type="submit" value="Register">
+  </form>
+  
+  <div id="registration-message" align="center"></div> 
+  <h2 align="center">Registered Users</h2>
+  <ul id="user-list"></ul>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

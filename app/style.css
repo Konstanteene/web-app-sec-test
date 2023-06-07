@@ -1,0 +1,26 @@
+* {
+  font-family: "Comic Sans MS", monospace;
+}
+
+body {
+  background-color: antiquewhite; 
+  /* background-color: #87BADC;  */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+  
+#form {
+  text-align: center;
+}
+
+#user-list {
+  text-align: center;
+}
+
+#registration-message {
+  color: red; 
+  font-size: 20px;
+}
